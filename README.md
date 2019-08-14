@@ -1,1 +1,1 @@
-# Flightgear-B-52H-Stratofortress-
+# Flightgear-B-52H-Stratofortress
