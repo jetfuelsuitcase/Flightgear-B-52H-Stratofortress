@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>cockpit1.3ds</path>
+
+    
+  <!-- Dashboard -->
+  <model>
+    <path>Aircraft/b52h/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -5.397 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.780 </z-m>
+    </offsets>
+  </model>
+
+    
+</PropertyList>

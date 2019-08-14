@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<PropertyList>
+<!--
+************************************************************************
+B-52H model/animation config.
+Adapted from B-52F
+
+8/12/19 by Grant Abraham
+************************************************************************
+-->
+
+<PropertyList>
+
+  <path>b52h.3ds</path>
+  <offsets>
+    <z-m>0.0</z-m>
+    <pitch-deg>0</pitch-deg>
+  </offsets>
+
+
+    
+   </PropertyList>

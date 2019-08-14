@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+
+<PropertyList>
+
+  <path>panel.3ds</path>
+
+  <animation>
+    <!-- Opaque objects -->
+    <object-name>panel</object-name>
+  </animation>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.477 </x-m>
+      <y-m> -0.023 </y-m>
+      <z-m>  0.282 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AI Standby -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/standby/ai/ai.xml</path>
+    <offsets>
+      <x-m> 0.483 </x-m>
+      <y-m> 0.261 </y-m>
+      <z-m> 0.347 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> 0.483 </x-m>
+      <y-m> 0.143 </y-m>
+      <z-m> 0.252 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT standby -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/standby/alt/alt.xml</path>
+    <offsets>
+      <x-m> 0.483 </x-m>
+      <y-m> 0.353 </y-m>
+      <z-m> 0.347 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI/Mach -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.483 </x-m>
+      <y-m> -0.188 </y-m>
+      <z-m>  0.252 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI standby -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/standby/asi/asi.xml</path>
+    <offsets>
+      <x-m> 0.483 </x-m>
+      <y-m> 0.261 </y-m>
+      <z-m> 0.253 </z-m>
+    </offsets>
+  </model>
+
+  <!-- EPRG Engine Pressure Ratio Gage -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/eprg/eprg.xml</path>
+    <offsets>
+      <x-m> 0.483 </x-m>
+      <y-m> 0.353 </y-m>
+      <z-m> 0.253 </z-m>
+    </offsets>
+  </model>
+
+  <!-- HSI -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/hsi/hsi.xml</path>
+    <offsets>
+      <x-m>  0.484 </x-m>
+      <y-m> -0.023 </y-m>
+      <z-m>  0.078 </z-m>
+    </offsets>
+  </model>
+
+  <!-- FMP Flight Modes Panel -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/fmp/fmp.xml</path>
+    <offsets>
+      <x-m>  0.480 </x-m>
+      <y-m> -0.370 </y-m>
+      <z-m>  0.065 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RSP Radar/IR Selector Panel -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/rsp/rsp.xml</path>
+    <offsets>
+      <x-m>  0.480 </x-m>
+      <y-m>  0.370 </y-m>
+      <z-m>  0.065 </z-m>
+    </offsets>
+  </model>
+
+  <!-- BSS Bearing Selector Switch -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/bss/bss.xml</path>
+    <offsets>
+      <x-m>  0.480 </x-m>
+      <y-m> -0.167 </y-m>
+      <z-m>  0.049 </z-m>
+    </offsets>
+  </model>
+
+  <!-- HSS Heading Selector Switch -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/hss/hss.xml</path>
+    <offsets>
+      <x-m>  0.480 </x-m>
+      <y-m> -0.236 </y-m>
+      <z-m>  0.056 </z-m>
+    </offsets>
+  </model>
+
+  <!-- FQGSS Fuel Quantity Gage Selector Switch -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/fqgss/fqgss.xml</path>
+    <offsets>
+      <x-m> 0.480 </x-m>
+      <y-m> 0.442 </y-m>
+      <z-m> 0.200 </z-m>
+    </offsets>
+  </model>
+
+  <!-- MW-F Master Warning - Fire -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/mw-f/mw-f.xml</path>
+    <offsets>
+      <x-m> 0.480 </x-m>
+      <y-m> 0.251 </y-m>
+      <z-m> 0.431 </z-m>
+    </offsets>
+  </model>
+
+  <!-- EGTG Exhaust Gas Temperature Gage -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/egtg/egtg.xml</path>
+    <offsets>
+      <x-m> 0.480 </x-m>
+      <y-m> 0.264 </y-m>
+      <z-m> 0.169 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TACHEMETER -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/tac/tac.xml</path>
+    <offsets>
+      <x-m> 0.480 </x-m>
+      <y-m> 0.348 </y-m>
+      <z-m> 0.169 </z-m>
+    </offsets>
+  </model>
+
+  <!-- CLOCK -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/clock/clock.xml</path>
+    <offsets>
+      <x-m>  0.483 </x-m>
+      <y-m> -0.311 </y-m>
+      <z-m>  0.180 </z-m>
+    </offsets>
+  </model>
+
+  <!-- gear/hook etc... -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/gear/gear.xml</path>
+    <offsets>
+      <x-m>  0.480 </x-m>
+      <y-m> -0.339 </y-m>
+      <z-m>  0.312 </z-m>
+    </offsets>
+  </model>
+
+  <!-- labels/Warning lights -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/divers/labels.xml</path>
+    <offsets>
+      <x-m>  0.480 </x-m>
+      <y-m> -0.048 </y-m>
+      <z-m>  0.282 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Info train d'atterrissage -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/divers/gearA.xml</path>
+    <offsets>
+      <x-m>  0.481 </x-m>
+      <y-m> -0.304 </y-m>
+      <z-m>  0.407 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/divers/gearG.xml</path>
+    <offsets>
+      <x-m>  0.481 </x-m>
+      <y-m> -0.328 </y-m>
+      <z-m>  0.392 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/divers/gearD.xml</path>
+    <offsets>
+      <x-m>  0.481 </x-m>
+      <y-m> -0.279 </y-m>
+      <z-m>  0.392 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Marker Beacon Light -->
+  <model>
+    <path>Aircraft/F-106-dart/Models/Interior/Panel/Instruments/divers/greenalert.xml</path>
+    <offsets>
+      <x-m>  0.481 </x-m>
+      <y-m>  0.297 </y-m>
+      <z-m>  0.435 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>

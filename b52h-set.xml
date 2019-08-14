@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+ <sim>
+
+<!--
+************************************************************************
+JSBSim B-52 in Early Alpha
+
+Started August 10 by Grant Abraham, gjabes10@gmail.com
+
+
+Main model from Sketchup:
+	https://3dwarehouse.sketchup.com/model/98f79f6e4540bc1596f29a80666fb102/Aircraft-Boeing-B-52-Stratofortress
+
+Uses/based off of configuration files and paths from Lee Elliott's B-52F and the default 172P
+
+************************************************************************
+-->
+
+        <description>Boeing B-52H Stratofortress)</description>
+
+        <long-description>The Boeing B-52 is a long-range strategic nuclear bomber that originally entered service in 1955. The -H model was introduced in 1962 and included uprated engines and a relocated gunner's position.</long-description>
+
+        <tags>
+            <tag>military</tag>
+            <tag>boeing</tag>
+            <tag>turbojet</tag>
+            <tag>multi-engine</tag>
+            <tag>bomber</tag>
+        </tags>
+
+        <author>Original by Grant Abraham</author>
+
+        <status>alpha</status>
+        <aircraft-version>0.1</aircraft-version>
+        <minimum-fg-version>2018.2.0</minimum-fg-version>
+        <rating>
+            <FDM type="int">1</FDM>
+            <systems type="int">1</systems>
+            <model type="int">4</model>
+            <cockpit type="int">1</cockpit>
+        </rating>
+
+<chase-distance-m type="double" archive="y">-70.0</chase-distance-m>
+
+<view n="0">
+      <internal archive="y">true</internal>
+      <config>
+        <x-offset-m archive="y">0.43</x-offset-m>
+        <y-offset-m archive="y">5.47</y-offset-m>
+        <z-offset-m archive="y">-25.00</z-offset-m>
+        <pitch-offset-deg>0</pitch-offset-deg>
+        <default-field-of-view-deg>55</default-field-of-view-deg>
+      </config>
+    </view>
+
+<view n="1">
+      <config>
+        <target-z-offset-m archive="y" type="double">20.0</target-z-offset-m>
+      </config>
+    </view>
+
+<hud>
+      <visibility n="1">false</visibility>
+    </hud>
+
+        <flight-model>jsb</flight-model>
+
+        <aero>b52hAero</aero>
+
+          <model>
+               <path>Aircraft/b52h/Models/b52hModel.3ds</path>
+             </model>
+
+</sim>
+</PropertyList>
